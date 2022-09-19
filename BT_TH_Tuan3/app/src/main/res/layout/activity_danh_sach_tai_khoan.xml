@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DanhSachTaiKhoan">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DANH SACH TAI KHOAN"
+        android:gravity="center"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/edtNhapTaiKhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten tai khoan"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/edtNhapMatKhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nhap mat khau"
+        android:textSize="25sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThem"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:text="Them" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSua"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="Sua" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnXoa"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Xoa" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
