@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="SỬA DỮ LIỆU COMPUTER"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/edtnhaptens"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên máy tính"
+            >
+
+        </EditText>
+        <EditText
+            android:id="@+id/edtloais"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập loại máy tính"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btsuas"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="Thêm"
+            >
+        </Button>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
