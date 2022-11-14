@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "670007017526",
+    "project_id": "kt-1-6f7ef",
+    "storage_bucket": "kt-1-6f7ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670007017526:android:a168a8a27063ed0f3fd897",
+        "android_client_info": {
+          "package_name": "caidat.dmt.kt_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670007017526-3dg1ah08ek069ftpnrftllmls67r83gp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJJq3vQ2W79m-rHmsMwK1xoHcWpWJuq_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670007017526-3dg1ah08ek069ftpnrftllmls67r83gp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
