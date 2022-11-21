@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "597160835355",
+    "project_id": "relatimedatabase-c72db",
+    "storage_bucket": "relatimedatabase-c72db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597160835355:android:e59ca673109a0dc232fbbe",
+        "android_client_info": {
+          "package_name": "caidat.dmt.kt_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597160835355-n0batgufdl1m7qeeakavo2391o5vsghs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA7e5XEluk1JUCG4Xkx4h6s0vPJXguGso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597160835355-n0batgufdl1m7qeeakavo2391o5vsghs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
